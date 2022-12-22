@@ -1,4 +1,4 @@
-import {} from './index'
+import {globalCss} from './index'
 
 export const globalStyles = globalCss({
   "*": {
@@ -13,7 +13,7 @@ export const globalStyles = globalCss({
   body:{
     "-webkit-font-smoothing": "antialiased",
     background: "linear-gradient(119.36deg, #010101 0%, #000000 100%)",
-    color: "$while:",
+    color: "$while",
   },
   img: {
     maxWidth: "100%",
