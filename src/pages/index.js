@@ -1,5 +1,6 @@
 import { Header } from "../components/header";
 import { SectionHero } from "../components/home/sectionHero";
+import { SectionCharacters } from "../components/home/sectionCharacters";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Header />
       <SectionHero />
+      <SectionCharacters/>
     </>
   )
 }
