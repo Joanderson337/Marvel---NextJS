@@ -87,5 +87,20 @@ export const ContentText = styled("div", {
       maxWidth: 490,
       marginBottom: 32,
     },
+    a: {
+      display: "inline-block",
+      padding: "15px 52px",
+      backgroundColor: "$red_900",
+      borderRadius: 5,
+      foneWeight: 600,
+      fontSize: "1.6rem",
+      lineHeight: "2.4rem",
+      color: "$white",
+      TextDecoder: "none",
+      transition: "filter .3s ease",
+      "&:hover":{
+        filter: "brightness(0.8)"
+      }
+    }
   },
 })
