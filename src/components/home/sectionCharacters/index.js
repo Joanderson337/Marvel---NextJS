@@ -5,7 +5,7 @@ import {
   CardMarvel,
 } from "./styles";
 import { Container } from "../../../styles/global";
-import { CardCharacter } from "../../cardCharacter";
+import { CharacterCard } from "../../cardCharacter";
 import LogoMarvel from "../../../assets/logo.svg";
 import ImagemCharacter from "../../../assets/character.jpg";
 import Image from "next/image";
@@ -57,8 +57,15 @@ export function SectionCharacters() {
           <h2>Personagens Marvel</h2>
         </TitleSection>
         <CharacterList>
-          {characters.map(({ image, name }) => {
-            return <CardCharacter key={name} image={image} name={name} />;
+        {characters?.map(({image, name, slug}) => {
+            return (
+              <CharacterCard
+                key={name}
+                name={name}
+                image={image}
+                slug={slug}
+              />
+            );
           })}
           <CardMarvel>
             <Image src={LogoMarvel} alt="logo da marvel" />

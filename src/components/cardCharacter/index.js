@@ -1,22 +1,26 @@
-import Link from 'next/link'
-import {StyleCard, ChacaracterCardStyle, ChacaracterInfo} from './styles'
-import Image from 'next/image'
+import Image from "next/image"
+import { useRouter } from "next/router"
 
-export function CardCharacter({image, name}){
-  return(
-    <StyleCard>
-      <Link href="#">
-          <ChacaracterCardStyle>
-          <Image src={image} width={280} height={372} alt="imagem do personagem" />
-         </ChacaracterCardStyle>
-         <ChacaracterInfo>
-          <div>
-            <h3>{name}</h3>
-            <span>Marvel Studios</span>
-          </div>
-            <span>What if</span>
-         </ChacaracterInfo>
-      </Link>
-    </StyleCard>
-  )
+import {
+  ChacaracterCardStyle,
+  ChacaracterImage,
+  ChacaracterInfo,
+} from "./styles";
+
+export function CharacterCard({ image, name, slug}) {
+  const router = useRouter();
+  return (
+    <ChacaracterCardStyle onClick={() => router.push(`/character/${slug}`)}>
+      <ChacaracterImage>
+        <Image src={image} width={280} height={372} alt="Image character" />
+      </ChacaracterImage>
+      <ChacaracterInfo>
+        <div>
+          <h3>{name}</h3>
+          <p>Marvel Studios</p>
+        </div>
+        <span>What if?</span>
+      </ChacaracterInfo>
+    </ChacaracterCardStyle>
+  );
 }

@@ -1,6 +1,6 @@
 import { styled } from "../../styles";
 
-export const StyleCard = styled("div", {
+export const ChacaracterImage = styled("div", {
   overflow: "hidden",
   borderRadius: 5,
   height: 372,
@@ -32,7 +32,7 @@ export const ChacaracterInfo = styled("div", {
       fontWeight: 400,
       fontSize: "1.4rem",
       lineHight: "2.1rem",
-      color: "$gray500",
+      color: "$white",
       transition: "color .3s ease",
     },
   },
@@ -40,7 +40,7 @@ export const ChacaracterInfo = styled("div", {
     fontWeight: 400,
     fontSize: "14px",
     lineHeight: "21px",
-    color: "#FFFFFF",
+    color: "$white",
     opacity: 0.4,
     transition: "opacity .3s ease",
   },
@@ -51,7 +51,7 @@ export const ChacaracterCardStyle = styled("button", {
   border: 0,
   backgroundColor: "transparent",
   "&:hover": {
-    [`${StyleCard}`]: {
+    [`${ChacaracterImage}`]: {
       img: {
         transform: "scale(1.03)",
       },
@@ -59,7 +59,7 @@ export const ChacaracterCardStyle = styled("button", {
     [`${ChacaracterInfo}`]: {
       "& > div": {
         h3: {
-          color: "$red800",
+          color: "$red_800",
         },
         p: {
           color: "$white",
