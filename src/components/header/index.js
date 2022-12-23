@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../assets/logo.svg";
-import {HeaderStyle} from './styles'
-import {Container} from '../../styles/global'
+
+import { HeaderStyle } from "./styles";
+import { Container } from "../../styles/global";
+
+import Logo from "../../assets/logo.svg";
 
 export function Header() {
   return (
@@ -10,7 +12,7 @@ export function Header() {
       <Container>
         <div className="logo">
           <Link href="/">
-              <Image src={logo} alt="logo Marvel" />
+              <Image src={Logo} alt="Marvel Studios" />
           </Link>
         </div>
       </Container>
