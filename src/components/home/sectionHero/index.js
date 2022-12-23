@@ -3,6 +3,7 @@ import { Container } from "../../../styles/global";
 import { IconYouTube } from "../../../assets/youtube.svg";
 import { IconInstagram } from "../../../assets/instagram.svg";
 import Image from "next/image";
+import { PopupVideo } from "../../popupVideo";
 
 const socials = [
   {
@@ -45,6 +46,7 @@ export function SectionHero() {
             </p>
             <a href="" target="_blank">Saiba mais</a>
           </div>
+          <PopupVideo />
         </ContextText>
       </Container>
     </SectionHeroStyle>
