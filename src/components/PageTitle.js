@@ -1,0 +1,11 @@
+import Head from "next/head";
+
+export function PageTitle({ title, description }) {
+  return (
+    <Head>
+      <title>{title}</title>
+      <meta name="title" content={title} />
+      <meta name="description" content={description} />
+    </Head>
+  );
+}

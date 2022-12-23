@@ -1,5 +1,11 @@
+import { PageNotFound } from "../components/pageNotFound";
+import { PageTitle } from "../components/PageTitle";
+
 export default function NotFound(){
   return(
-    <p>página não encontrada</p>
+   <>
+     <PageTitle title="Marvel | Página não encontrada" description="Página não encontrada" />
+     <PageNotFound />
+   </>
   )
 }
