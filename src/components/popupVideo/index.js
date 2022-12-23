@@ -9,7 +9,7 @@ export function PopupVideo(){
       <span>ASSISTA AO TRAILER</span>
       <button>
         <div>
-          <Image src={IconPlay} alt='' />
+          <Image src={IconPlay} alt='icon play' />
         </div>
       </button>
     </StylePopupVideo >

@@ -6,7 +6,7 @@ createStitches({
     colors: {
       red_900: "#FF0000",
       red_800: "#FF040D",
-      while: "#FFFFFF",
+      white: "#FFFFFF",
       grey_900: "#33303E",
       grey_800: "#4E4B59",
       grey_700: "#5F5C6B",
