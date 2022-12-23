@@ -1,0 +1,13 @@
+{
+  "_cts": {
+    "home": {
+      "description_hero": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "personagens": {}
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "generally"
+  },
+  "subtitle_hero": {
+    "__TYPE__": "FieldContent",
+    "value": "mark",
+    "type": "Text"
+  },
+  "title_hero": {
+    "__TYPE__": "FieldContent",
+    "value": "shall",
+    "type": "Text"
+  },
+  "description_hero": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Occaecat Lorem dolore veniam labore aliqua consectetur tempor in non adipisicing ad nisi velit. Ex tempor reprehenderit cillum reprehenderit id."
+        }
+      }
+    ]
+  },
+  "label_button": {
+    "__TYPE__": "FieldContent",
+    "value": "poetry",
+    "type": "Text"
+  },
+  "url_button": {
+    "__TYPE__": "LinkContent",
+    "value": {
+      "__TYPE__": "ExternalLink",
+      "url": "http://google.com"
+    }
+  },
+  "label_trailer": {
+    "__TYPE__": "FieldContent",
+    "value": "special",
+    "type": "Text"
+  },
+  "thumb_trailer": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+      "width": 3168,
+      "height": 4752
+    },
+    "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+    "width": 3168,
+    "height": 4752,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "plant"
+  },
+  "slug": {
+    "__TYPE__": "FieldContent",
+    "value": "other",
+    "type": "Text"
+  },
+  "imagem_personagem": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+      "width": 3168,
+      "height": 4752
+    },
+    "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+    "width": 3168,
+    "height": 4752,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "nome_personagem": {
+    "__TYPE__": "FieldContent",
+    "value": "aware",
+    "type": "Text"
+  },
+  "descricao_personagem": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Voluptate laborum et in do nisi ut officia exercitation. Pariatur irure in nisi amet quis tempor esse proident."
+        }
+      }
+    ]
+  }
+}
