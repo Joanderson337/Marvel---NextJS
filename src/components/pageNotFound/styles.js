@@ -6,7 +6,7 @@ export const PageNotFoundStyle = styled("section", {
   marginTop: 96,
   [`${Container}`]: {
     display: "flex",
-    ai: "center",
+    alignItems: "center",
     flexDirection: "column",
     borderLeft: "1px solid rgba(255, 255, 255, 0.2)",
     borderRight: "1px solid rgba(255, 255, 255, 0.2)",
