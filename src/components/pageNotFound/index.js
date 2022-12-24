@@ -1,6 +1,6 @@
 import { Button } from "../../components/button"
 
-import ImageNotFound from "../../assets/img-not-found.png"
+import ImageNotFound from "../../assets/image-not-found.png"
 import Image from "next/image"
 import { PageNotFoundStyle } from "./styles"
 import { Container } from "../../styles/global"
