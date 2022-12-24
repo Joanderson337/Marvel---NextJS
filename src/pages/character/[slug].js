@@ -2,12 +2,18 @@ import { PageTitle } from "../../components/PageTitle"
 import { CharacterHero } from "../../components/characterDetails/Hero"
 import { getPrismicClient } from "../../service/prismic"
 import { SectionCharacters } from "../../components/home/sectionCharacters";
+import { useRouter } from "next/router";
+import { Loading } from "../../components/loading";
 
 export default function CharacterDetailsPage({ character, characters }) {
+  const router = useRouter();
+  if (router.isFallback) {
+    return <Loading />;
+  }
   return (
     <>
       <PageTitle
-        title={`What If? `}
+        title={`What If? | ${character.data.nome_personagem}`}
         description={`Detalhes do personagem`}
       />
       {character && <CharacterHero dataCharacter ={character}/>}
