@@ -19,7 +19,8 @@ const socials = [
   },
 ];
 
-export function SectionHero() {
+export function SectionHero({ data }) {
+  console.log(data);
   return (
     <SectionHeroStyle>
       <Container>
@@ -38,16 +39,14 @@ export function SectionHero() {
         </AreaSocial>
         <ContentText>
           <div className="left">
-          <h3>COMING SON</h3>
-            <h1>Lorem ipsum dolor sit amet, elit consectetur</h1>
-            <p>
-              Maecenas tristique eu quam sed pretium. Pellentesque sagittis elit
-              et porttitor consequat. Nam augue turpis, tincidunt commodo lacus
-              at, auctor suscipit ex
-            </p>
-            <a href="" target="_blank">Saiba mais</a>
+            <h3>{data.subtitle_hero}</h3>
+            <h1>{data.title_hero}</h1>
+            <p>{data.description_hero[0].text}</p>
+            <a href={data.url_button.url} target="_blank" rel="noreferrer">
+              {data.label_button}
+            </a>
           </div>
-          <PopupVideo />
+          <PopupVideo text={data.label_trailer} thumb={data.thumb_trailer.url} />
         </ContentText>
       </Container>
     </SectionHeroStyle>
