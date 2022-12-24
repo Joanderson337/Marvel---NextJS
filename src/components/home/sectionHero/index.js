@@ -20,7 +20,6 @@ const socials = [
 ];
 
 export function SectionHero({ data }) {
-  console.log(data);
   return (
     <SectionHeroStyle>
       <Container>

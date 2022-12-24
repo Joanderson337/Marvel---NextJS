@@ -3,12 +3,12 @@ import { SectionCharacters } from "../components/home/sectionCharacters";
 import { PageTitle } from "../components/PageTitle";
 import { getPrismicClient } from "../service/prismic";
 
-export default function Home({dataPage}) {
+export default function Home({dataPage, characters}) {
   return (
     <>
       <PageTitle title="Marvel" description="Landing page Marvel" />
       <SectionHero data={dataPage}/>
-      <SectionCharacters/>
+      <SectionCharacters data={characters}/>
     </>
   )
 }
