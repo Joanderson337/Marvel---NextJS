@@ -11,17 +11,29 @@ export const HeroStyle = styled("section", {
   backgroundAttachment: "fixed",
   [`${Container}`]: {
     display: "flex",
-    ai: "flex-start",
+    alignItems: "flex-start",
     borderLeft: "1px solid rgba(255, 255, 255, 0.2)",
     borderRight: "1px solid rgba(255, 255, 255, 0.2)",
+
+    "@mobile": {
+      flexDirection: "column",
+      alignItems: "center",
+    },
+
+    "@table": {
+      flexDirection: "column",
+      alignItems: "center",
+    },
+
   },
+
 });
 
 export const ImageCharacter = styled("div", {
   flex: 1,
   width: "100%",
   maxWidth: 486,
-  height: 631,
+  height: 555,
   borderRadius: 5,
   overflow: "hidden",
 });
@@ -30,8 +42,15 @@ export const InfoCharacter = styled("div", {
   flex: 1,
   paddingLeft: 32,
   display: "flex",
-  ai: "flex-start",
+  alignItems: "flex-start",
+  flexDirection: "column",
   paddingTop: 154,
+  "@mobile": {
+    paddingTop: 50,
+  },
+  "@table": {
+    paddingTop: 50,
+  },
   span: {
     display: "block",
     marginTop: 5,
@@ -41,6 +60,16 @@ export const InfoCharacter = styled("div", {
     color: "#ACABB7",
     opacity: 0.6,
     marginRight: 19,
+  },
+  p: {
+    fontWeight: 400,
+    fontSize: "1.6rem",
+    lineHeight: "2.4rem",
+    color: "$gray_400",
+    
+  "@mobile": {
+    marginBottom: 20,
+  }
   },
   "& > div": {
     position: "relative",
@@ -62,13 +91,9 @@ export const InfoCharacter = styled("div", {
       lineHeight: "7.1rem",
       color: "$white",
       marginBottom: 13,
-    },
-    p: {
-      fontWeight: 400,
-      fontSize: "1.6rem",
-      lineHeight: "2.4rem",
-      color: "$gray_400",
-      maxWidth: 385,
+      "@mobile": {
+        fontSize: "2.1rem",
+      }
     },
   },
 });

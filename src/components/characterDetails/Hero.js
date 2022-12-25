@@ -20,8 +20,9 @@ export function CharacterHero({ dataCharacter }) {
             <span>A História</span>
             <div>
               <h1>{dataCharacter.data.nome_personagem}</h1>
-              <p>{dataCharacter.data.descricao_personagem[0].text}</p>
+     
             </div>
+                <p>{dataCharacter.data.descricao_personagem[0].text}</p>
           </InfoCharacter>
         </Container>
       </HeroStyle>

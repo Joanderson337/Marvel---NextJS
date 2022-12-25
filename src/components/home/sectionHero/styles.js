@@ -31,6 +31,10 @@ export const AreaSocial = styled("div", {
   height: "100%",
   borderLeft: "1px solid rgba(255, 255, 255, 0.2)",
   borderRight: "1px solid rgba(255, 255, 255, 0.2)",
+  
+  "@mobile": {
+    display: "none"
+  },
   ul: {
     display: "flex",
     flexDirection: "column",
@@ -60,6 +64,10 @@ export const ContentText = styled("div", {
   flex: 1,
   paddingBottom: 31,
   borderRight: "1px solid rgba(255, 255, 255, 0.2)",
+  
+  "@mobile": {
+    paddingBottom: 0
+  },
   ".left": {
     flex: 1,
     maxWidth: 574,

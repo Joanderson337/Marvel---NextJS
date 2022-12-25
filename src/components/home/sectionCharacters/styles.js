@@ -1,9 +1,25 @@
 import { styled } from "../../../styles";
+import { Container } from "../../../styles/global";
 
 export const SectionCharactersStyle = styled("section", {
   width: "100%",
   paddingTop: 56,
   paddingBottom: 76,
+  [`${Container}`]: {
+    "@lgScreen":{
+      maxWidth: 1000,
+    },
+  
+    "@table": {
+      maxWidth: 620,
+    },
+  
+    "@mobile": {
+      display: "flex",
+      alignItems: "center",
+      flexDirection: "column"
+    }
+  },
 });
 
 export const TitleSection = styled("div", {
@@ -34,6 +50,18 @@ export const CharacterList = styled("div", {
   gridTemplateColumns: "repeat(4, 1fr)",
   gridGap: "40px 33px",
   marginTop: "5.6rem",
+
+  "@lgScreen":{
+    gridTemplateColumns: "repeat(3, 1fr)",
+  },
+
+  "@table": {
+    gridTemplateColumns: "repeat(2, 1fr)",
+  },
+
+  "@mobile": {
+    gridTemplateColumns: "repeat(1, 1fr)",
+  }
 });
 
 export const CardMarvel = styled("div", {

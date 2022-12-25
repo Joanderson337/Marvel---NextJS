@@ -8,7 +8,7 @@ export const LoadingStyle = styled("div", {
   height: "100%",
   background: "linear-gradient(119.36deg, #050011 0%, #050011 100%)",
   display: "flex",
-  ai: "center",
-  jc: "center",
+  alignItems: "center",
+  justifyContent: "center",
   zIndex: 2022,
 });

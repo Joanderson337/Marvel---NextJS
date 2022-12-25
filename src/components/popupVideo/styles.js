@@ -11,6 +11,16 @@ export const StylePopupVideo = styled("div",{
     letterSpacing: "0.095em",
     color: "$grey_200",
     textTransform: "uppercase",
+    
+    "@mobile": {
+      display: "none"
+    },
+
+    "@table": {
+      display: "none"
+    },
+
+    
   },
   button: {
     width: 312,
@@ -21,6 +31,15 @@ export const StylePopupVideo = styled("div",{
     background: `url(${ThumbVideo.src}) no-repeat center center`,
     borderRadius: 10,
     border: 0,
+
+    "@mobile": {
+      display: "none"
+    },
+
+    "@table": {
+      display: "none"
+    },
+
     "& > div": {
       width: 47,
       height: 47,
