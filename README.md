@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Marvel
 
-## Getting Started
 
-First, run the development server:
+Link do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<a link href="https://marvel-joanderson337.vercel.app/" target="_blank">![Site](https://shields.io/badge/acessar-Site-green?&style=for-the-badge)</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Stack utilizada
+  <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> 
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> 
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+          
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Para executar o projeto ⤸
 
-## Learn More
+1. `git clone` nesse repositório;
+2. Acessa pasta do repositório e executa `yarn` ou `npm` pra instalar as dependências;
+3. Executa `yarn dev` ou `npm run dev` pra iniciar o projeto
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Screenshots
 
-## Deploy on Vercel
+Desktop
+<br>
+![image](https://user-images.githubusercontent.com/77758027/210254179-dd4da518-0b50-43cb-9870-9a5a4d557f45.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+
+Mobile
+<br>
+![image](https://user-images.githubusercontent.com/77758027/210254206-2d283cbc-bad9-41a7-abe9-fa9ffe1d822b.png)
+
+
+
+👋🏽 Entre em contato!
+<br/>
+
+
+ <a href="mailto:jhonny_040996@hotmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
+ <a href="https://www.linkedin.com/in/joandersonsilva337/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a> 
